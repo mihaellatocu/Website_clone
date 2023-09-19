@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Skyscanner</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header_main">
+            <div class="firstLine">
+                <div class="logo"><a href="#">
+                    <div class="logo_icon">
+                        <i class="material-icons">flight</i>
+                    </div>
+                    <div class="logo_skyscanner">Skyscanner</div>
+                    </a>
+                </div>
+                <div class="selections">
+                    <a href="#">
+                        <div class="region">
+                            <i class="material-icons">public</i>
+                        </div>
+                    </a>
+                    <div class="login">
+                        <a href="#">
+                            <div class="login_icon">
+                                <i class="material-icons">person</i>
+                            </div>
+                            <div class="login_text">Log in</div>
+                        </a>
+                    </div>
+                    <div class="menu"><a href="#">
+                        <i class="material-icons">menu</i>
+                    </a></div>
+                </div>
+            </div>
+            
+            <div class="title">
+                <h1>Millions of cheap flights. One simple search.</h1>
+            </div>
+            <div class="selections bis">
+                <div class="selection_box from">
+                    <label for="from_countries" >From</label><br>
+                    <input type="text" list="country" id="from_countries" placeholder="Country,city or airport" name="">
+                    <datalist id="country">
+                        <option value="London">London</option>
+                        <option value="Budapest"></option>
+                        <option value="Paris"></option>
+                        <option value="Berlin"></option>
+                        <option value="Madrid"></option>
+                    </datalist>
+                </div>
+                <div class="selection_box">
+                    <label for="to_countries">To</label><br>
+                    <input type="text" id="to_countries" list="toCountry" placeholder="Abu Dhabi(any)">
+                    <datalist id="toCountry">
+                        <option value="Abu Dhabi"></option>
+                        <option value="London"></option>
+                        <option value="Madrid"></option>
+                        <option value="Paris"></option>
+                        <option value="Barcelona"></option>
+                    </datalist>
+                </div>
+                <div class="selection_box">
+                    <label for="depart">Depart</label><br>
+                    <input type="date" placeholder="date">
+                </div>
+                <div class="selection_box">
+                    <label for="return">Return</label><br>
+                    <input type="date">
+                </div>
+                <div class="selection_box persons">
+                    <label for="persons">Travellers and cabin class</label><br>
+                    <p>2 Travellers, Economy</p>
+                </div>
+                <div class="selection search"><a href="#">Search</a></div>
+            </div>
+            <div class="direct_flights">
+                <input type="checkbox" id="direct_flights">
+                <label for="direct_flights">Direct Flights</label>
+            </div>
+        </header>
+    </div>
+    
+    <main class="grid">
+        <div class="search">
+            <div class="search_hotels secondLine"><a href="#">
+                <div class="icon">
+                    <i class="material-icons">hotel</i>
+                </div>
+                <div class="search_items">Hotels</div>
+            </a></div>
+            <div class="search_car secondLine"><a href="#">
+                <div class="icon">
+                    <i class="material-icons">directions_car</i>
+                </div>
+                <div class="search_items">Car Hire</div>
+            </a></div>
+            <div class="search_explore secondLine"><a href="#">
+                <div class="icon ">
+                    <i class="material-icons">public</i>
+                </div>
+                <div class="search_items">Explore everywhere</div>
+            </a></div>
+            <div class="savings secondLine"><a href="#">
+                <div class="icon">
+                    <i class="material-icons">local_offer</i>
+                </div>
+                <div class="search_items">Savings generator</div>
+            </a></div>
+        </div>
+        <div class="be_inspired">
+            <img src="image-1.png" alt="a place">
+        </div>
+        <div class="popular">
+            <h3>Popular Right now</h3>
+            <p>Other travellers are loving these destinations. Search flights,
+                    hotels, and car hire and join them on the adventure.
+            </p>
+            <div class="popular_boxes">
+                <div class="destinations amsterdam">
+                    <img src="amsterdam.jpeg" alt="amsterdam view">
+                    <span>Amsterdam</span>
+                </div>
+                <div class="destinations london">
+                    <img src="london.jpeg" alt="">
+                    <span>London</span>
+                </div>
+                <div class="destinations dublin">
+                    <img src="dublin.jpeg" alt="dublin image">
+                    <span>Dublin</span>
+                </div>
+                <div class="destinations barcelona">
+                    <img src="barcelona.jpeg" alt="barcelona image">
+                    <span>Barcelona</span>
+                </div>
+                <div class="destinations paris">
+                    <img src="eifeltower.jpg" alt="picture paris">
+                    <span>Paris</span>
+                </div>
+                <div class="destinations berlin">
+                    <img src="berlin.jpeg" alt="berlin image">
+                    <span>Berlin</span>
+                </div>
+                <div class="destinations belfast">
+                    <img src="belfast.jpeg" alt="belfast picture">
+                    <span>Belfast</span>
+                </div>
+                <div class="destinations ibiza">
+                    <img src="ibiza.jpeg" alt="ibitza picture">
+                    <span>Ibiza</span>
+                </div>
+                <div class="destinations palma">
+                    <img src="palma.jpeg" alt="picture Palma-de-majorca">
+                    <span>Palma</span>
+                </div>
+    
+            </div>
+            <h3 class="book">Book cheap flights, hotels and car hire with Skyscanner
+            </h3><hr>
+            <h4><a href="#">Join 100 million savvy travellers as you compare flights, hotels and cars from hundreds of providers.
+                    Here’s how.</a>
+            </h4><hr>
+            <h4><a href="#">Our international sites</a></h4><hr>
+        </div>
+    </main>
+    
+    
+    <footer>
+            
+    </footer>
+</body>
+</html>
